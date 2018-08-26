@@ -1,0 +1,33 @@
+{
+  "name": "jsonp",
+  "version": "1.0.0",
+  "description": "A simple JSOP implementation ",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyoluxi/JSONP.git"
+  },
+  "keywords": [
+    "JSONP"
+  ],
+  "author": "yoyoluxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoyoluxi/JSONP/issues"
+  },
+  "homepage": "https://github.com/yoyoluxi/JSONP#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
